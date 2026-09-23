@@ -35,6 +35,29 @@ Some of the main OOP concepts used in the project are:
 * Method Overriding
 * Encapsulation
 
+## Class Structure
+
+The project is organized into several classes and an interface.
+
+```text
+Drawable
+├── Circle
+└── Cube
+
+Shape
+└── Circle
+
+ThreeDShape
+└── Cube
+```
+
+* `Drawable` defines the drawing behavior.
+* `Shape` is used as a base class for shapes.
+* `ThreeDShape` is used as a base class for three-dimensional shapes.
+* `Circle` extends `Shape` and implements the required drawing and area methods.
+* `Cube` extends `ThreeDShape` and implements the required drawing, area, and volume methods.
+
+
 ## File Input and Output
 
 The program reads the shape information from a file named:
