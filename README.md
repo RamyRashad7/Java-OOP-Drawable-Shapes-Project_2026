@@ -59,11 +59,15 @@ The total area is written to:
 
 ## GUI
 
-The project also includes a simple GUI for drawing the shapes from the input file.
+The project includes a simple GUI for displaying the shapes from the input file.
 
-Java `Graphics` methods are used to draw the shapes.
+The shapes are drawn using Java `Graphics` methods.
 
-For example, the Circle class uses `drawOval()` and the Cube class uses `drawRect()`.
+For example, the `Circle` class uses `drawOval()` and the `Cube` class uses `drawRect()`.
+
+### GUI Preview
+
+![GUI Preview](screenshots/gui-demo.png)
 
 ## Technologies
 
